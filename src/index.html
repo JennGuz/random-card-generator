@@ -11,19 +11,22 @@
       crossorigin="anonymous"
     />
     <link rel="shortcut icon" href="./4geeks.ico" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    /> -->
   </head>
   <body>
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+    <button onclick="changeCard()" class="button">Cambiar carta</button>
+    <div class="container">
+      <div class="container-card">
+        <i class="symbol"></i>
+      </div>
+      <div class="number"></div>
+      <div class="container-card2">
+        <i class="symbol2"></i>
       </div>
     </div>
+    <script src="app.js"></script>
   </body>
 </html>
